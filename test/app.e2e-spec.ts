@@ -15,7 +15,7 @@ describe('GameController (e2e)', () => {
     await app.init();
   });
 
-  it('/ (GET)', () => {
+  it('/ (GET SIMULATION)', () => {
     return request(app.getHttpServer())
       .get('/jogo/simular')
       .expect(200)
