@@ -1,7 +1,7 @@
-FROM node:16
-WORKDIR /usr/app
+FROM node:16.14.2
+WORKDIR /usr/src/app
 COPY package*.json ./
 RUN npm i
 COPY . .
-EXPOSE 3000
-CMD npm run start
+RUN npm run build
+CMD [ "node", "dist/main.js"] 
