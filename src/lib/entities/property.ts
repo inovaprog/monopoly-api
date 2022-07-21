@@ -1,7 +1,7 @@
-import { Player } from "./player";
+import { Player } from './player';
 
 export interface Property {
-    saleValue: number;
-    rentValue: number;
-    owner: Player; 
-  }
+  saleValue: number;
+  rentValue: number;
+  owner: Player;
+}
