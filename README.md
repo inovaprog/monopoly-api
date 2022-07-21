@@ -5,7 +5,10 @@
 **Docker:** 
 
 ```plaintext
-docker-compose up
+git clone https://github.com/inovaprog/monopoly-api.git
+cd monopoly-api
+sudo docker build -t nest-cloud-run .
+sudo docker run -p30000:3000 monopoly-api
 ```
 
 **Node:** 
