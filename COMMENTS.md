@@ -11,8 +11,8 @@ docker-compose up
 **Node:** 
 
 ```plaintext
-yarn
-yarn start
+npm i
+npm run start
 ```
 
 O projeto contém apenas um endpoint : 
@@ -44,3 +44,5 @@ Parâmetros permitidos:
 **Docker-compose:** v2.6.1
 
 **Docker-Version**: 20.10.17, build 100c701
+
+**NestJs**: 9.0.0
