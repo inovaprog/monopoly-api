@@ -4,7 +4,7 @@ import { Property } from '../entities/property';
 export default class PropertiesFunctions {
   static createProperties(props: SimulateGameDto): Property[] {
     const properties: Property[] = [];
-    for (let i = 0; i < (props.number_of_properties || 20); i++) {
+    for (let i = 0; i < 20; i++) {
       const saleValue = generateSaleValueByInterval(
         props.min_value || 100,
         props.max_value || 350,

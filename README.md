@@ -26,6 +26,19 @@ O projeto contém apenas um endpoint : 
 GET - ‘http://localhost:3000/jogo/simular’  
 ```
 
+Testes Unitários: 
+
+```plaintext
+npm run test
+```
+
+Testes de Integração: 
+
+```plaintext
+npm run test:e2e
+```
+
+
 Ao chamar esse endpoint é realizada duma simulação entre 4 jogadores ("cauteloso", "aleatorio", "exigente", “impulsivo”), onde cada um tem seu comportamento no jogo.
 
 Parâmetros permitidos:
@@ -35,8 +48,6 @@ Parâmetros permitidos:
 *   **max\_value:** number : valor máximo de preço dos imoveis. \[default: 350\].
 
 *   **min\_value:** number : valor mínimo de preço dos imoveis. \[default: 100\].
-
-*   **number\_of\_properties:** number : Define o numero de imóveis no tabuleiro.\[default: 20\]
 
 *   **start\_balance: number :** Define o saldo inicial de cada jogador.\[default: 300\]
 

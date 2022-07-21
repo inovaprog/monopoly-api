@@ -25,11 +25,6 @@ export class SimulateGameDto {
   @IsOptional()
   @IsNumber()
   @IsNotEmpty()
-  number_of_properties?: number;
-
-  @IsOptional()
-  @IsNumber()
-  @IsNotEmpty()
   start_balance?: number;
 
   @IsOptional()
