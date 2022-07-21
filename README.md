@@ -26,6 +26,19 @@ O projeto contém apenas um endpoint : 
 GET - ‘http://localhost:3000/jogo/simular’  
 ```
 
+Testes Unitários: 
+
+```plaintext
+npm run test
+```
+
+Testes de Integração: 
+
+```plaintext
+npm run test:e2e
+```
+
+
 Ao chamar esse endpoint é realizada duma simulação entre 4 jogadores ("cauteloso", "aleatorio", "exigente", “impulsivo”), onde cada um tem seu comportamento no jogo.
 
 Parâmetros permitidos:
