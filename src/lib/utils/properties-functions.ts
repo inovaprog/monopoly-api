@@ -6,8 +6,8 @@ export default class PropertiesFunctions {
     const properties: Property[] = [];
     for (let i = 0; i < (props.number_of_properties || 20); i++) {
       const saleValue = generateSaleValueByInterval(
-        props.min_value || 1000,
-        props.max_value || 35000,
+        props.min_value || 100,
+        props.max_value || 350,
       );
       const property: Property = {
         saleValue: saleValue,

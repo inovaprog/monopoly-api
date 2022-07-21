@@ -18,7 +18,6 @@ describe('GameController (e2e)', () => {
   it('/ (GET SIMULATION)', () => {
     return request(app.getHttpServer())
       .get('/jogo/simular')
-      .expect(200)
-      .expect('ok');
+      .expect(200);
   });
 });

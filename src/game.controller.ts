@@ -19,7 +19,7 @@ export class GameController {
       transformOptions: { enableImplicitConversion: true },
     }),
   )
-  simulateGame(@Query() query: SimulateGameDto): string {
+  simulateGame(@Query() query: SimulateGameDto): {jogadores: string[], vencedor: string} {
     return this.appService.simulateGame({
       ...query,
       behaviors: ['cauteloso', 'aleatorio', 'exigente', 'impulsivo'],

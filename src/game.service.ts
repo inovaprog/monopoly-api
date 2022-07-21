@@ -7,7 +7,7 @@ import PropertiesFunctions from './lib/utils/properties-functions';
 
 @Injectable()
 export class GameService {
-  simulateGame(props: SimulateGameDto): any {
+  simulateGame(props: SimulateGameDto): {jogadores: string[], vencedor: string} {
     let players = PlayersFunctions.createPlayers(props);
     const board = PropertiesFunctions.createProperties(props);
     let i = 0;

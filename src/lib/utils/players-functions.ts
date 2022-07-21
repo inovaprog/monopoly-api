@@ -27,6 +27,7 @@ export default class PlayersFunctions {
       player.currentPosition -= 20;
       player.balance += 100;
     }
+    return player;
   }
 
   static playerDecision(player: Player, currentProperty: Property) {
@@ -43,5 +44,6 @@ export default class PlayersFunctions {
       case 'impulsivo':
         return true;
     }
+    return false;
   }
 }
