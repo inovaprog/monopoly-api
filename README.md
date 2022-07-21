@@ -7,13 +7,15 @@
 ```plaintext
 git clone https://github.com/inovaprog/monopoly-api.git
 cd monopoly-api
-sudo docker build -t nest-cloud-run .
-sudo docker run -p30000:3000 monopoly-api
+sudo docker build -t monopoly-api .
+sudo docker run -p3000:3000 monopoly-api
 ```
 
 **Node:** 
 
 ```plaintext
+git clone https://github.com/inovaprog/monopoly-api.git
+cd monopoly-api
 npm i
 npm run start
 ```
