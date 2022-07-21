@@ -36,8 +36,6 @@ Parâmetros permitidos:
 
 *   **min\_value:** number : valor mínimo de preço dos imoveis. \[default: 100\].
 
-*   **number\_of\_properties:** number : Define o numero de imóveis no tabuleiro.\[default: 20\]
-
 *   **start\_balance: number :** Define o saldo inicial de cada jogador.\[default: 300\]
 
 *   **rent\_percent:** number : Define a porcentagem em relação ao preço de venda que será cobrada de aluguel em cada imóvel. \[default: 3\]
